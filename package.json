@@ -1,0 +1,40 @@
+{
+  "name": "tas_sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "cross-env NODE_PATH=src nodemon --inspect=50020 src/app --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BunkerBusterDev/ThingAdaptionSoftware.git"
+  },
+  "author": "BunkerBusterDev <bunkerbusterdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BunkerBusterDev/ThingAdaptionSoftware/issues"
+  },
+  "homepage": "https://github.com/BunkerBusterDev/ThingAdaptionSoftware#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "dependencies": {}
+}
